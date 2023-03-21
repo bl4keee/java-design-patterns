@@ -15,7 +15,7 @@ public class AdapterDriver {
     System.out.println("\n\nReal Estate Land Area Calculation");
     AcreageDeterminatorAdapter adapter = new AcreageDeterminatorAdapter();
     Estate estate = new Estate(2300, 6325);
-    System.out.println("Estate Acreage: ");
-    System.out.println(acreageFormat.format(adapter.determineAcreage(estate)));
+    System.out.print("Estate Acreage: ");
+    System.out.print(acreageFormat.format(adapter.determineAcreage(estate)));
   }
 }
